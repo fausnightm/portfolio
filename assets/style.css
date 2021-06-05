@@ -11,7 +11,7 @@
   }
   
   body {
-     color: white;
+     color: var(--primary-color);
      font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   }
@@ -109,9 +109,10 @@
       border-right: 6px solid;
       text-align: left;
       padding-left: 30px;
-      padding-right: 10px;
-      margin: auto 3px;
+      padding-right: 90px;
+      margin: auto 40px;
       display: flex;
+      width: 23%;
   }
 /* section title end */
 
@@ -133,8 +134,66 @@
 
 /* work start */
 
+.work {
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-buddy {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url(./images/Run-buddy-ss.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto
+
+}
+
+.run-buddy h4 {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+
+}
+
+.rb-image {
+
+}
+
 
 /* contact me start */
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact div ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+}
+.contact div ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 20px 20px 5px 20px;
+    border-bottom: 3px solid;
+    margin: 30px
+}
+
+
+
+
+
 
 
 
