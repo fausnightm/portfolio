@@ -5,8 +5,8 @@
   }
 
   :root {
-      --primary-color: #383f44;
-      --secondary-color: #0d2f47; 
+      --primary-color: #3a3844;
+      --secondary-color: #102d42; 
       --tertiary-color: #91e3e0;
   }
   
@@ -72,6 +72,12 @@
   }
   /* header end */
 
+  /* footer start */
+  footer {
+      color: var(--secondary-color);
+  }
+  /* footer end */
+
   /* Subtitle Start */
 
   .subtitle {
@@ -91,9 +97,47 @@
       text-align: right;
       width: 75%;
       margin-left: 700px;
-      padding-right: 15px;
-      
-     
-      
-      
+      padding-right: 15px; 
   }
+  /* subtitle end */
+
+  /* section title start */
+
+  .section-title {
+      font-size: 36px;
+      color: var(--secondary-color);
+      border-right: 6px solid;
+      text-align: left;
+      padding-left: 30px;
+      padding-right: 10px;
+      margin: auto 3px;
+      display: flex;
+  }
+/* section title end */
+
+/* about me start */
+
+  .about-me {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .about-me p {
+        color: var(--secondary-color);
+        padding: 40px;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+/* about me end */
+
+/* work start */
+
+
+/* contact me start */
+
+
+
+
+
+
