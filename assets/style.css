@@ -88,7 +88,7 @@
   /* Subtitle Start */
 
   .subtitle {
-      background-image: url(./images/ocean\ bg.jpeg);
+      background-image: url(./images/moon.jpeg);
       background-size: cover;
       background-attachment: fixed;
       display: flex;
@@ -105,13 +105,15 @@
       width: 75%;
       margin-left: 700px;
       padding-right: 15px;
+      opacity: 90%;
   }
 
   .subtitle img {
-      max-height: 150px;
-      max-width: 150px;
+      max-height: 300px;
+      max-width: 300px;
       margin-left: 10px;
       border: 2px solid;
+      justify-content: space-around;
   }
   /* subtitle end */
 
@@ -183,7 +185,7 @@
     margin: auto;
     min-height: 300px;
     max-height: 300px;
-    border: 6px solid;
+    border: 3px solid;
     border-radius: 3px;
 
 }
@@ -379,6 +381,7 @@
         header {
             padding-bottom: 0;
             justify-content: center;
+            position: relative;
           }
         
           header h1 {
